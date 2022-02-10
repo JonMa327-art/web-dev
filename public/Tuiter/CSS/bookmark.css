@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+/* Title */
+.wd-title {
+    margin: 12px 0px 0px 16px;
+    padding-bottom: 16px;
+    border-bottom: solid 1px lightgray;
+}
+
+.wd-title h1 {
+    font-size: 20px;
+    color: white;
+}
+
+.wd-title p {
+    font-size: 13px;
+    color: lightgray;
+}
+
+
+/* Bookmark */
+.wd-bookmark {
+    margin: 12px 0px 0px 16px;
+    color: white;
+}
+
+.wd-bookmark-profile-pic {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    float: left;
+}
+
+.wd-bookmark-tweet {
+    width: 506px;
+    margin-left: 12px;
+    float: left;
+}
+
+.wd-bookmark-author {
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: white;
+}
+
+.wd-bookmark-handle {
+    color: lightgray;
+}
+
+.wb-bookmark-message {
+    width: 506px;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.wd-bookmark-img-container {
+    border: solid 1px lightgray;
+    border-radius: 25px;
+}
+
+.wd-bookmark-img-tweet {
+    width: 504px;
+    height: 264px;
+    border-radius: 20px;
+} 
+
+.wd-bookmark-img-title {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px;
+}
+
+.wd-bookmark-img-message {
+    color: lightgray;
+    font-size: 15px;
+    padding: 0px 12px 12px;
+}
+
+
+
+
+.wd-bookmark-actions {
+    margin-top: 12px;
+    list-style-type: none;
+}
+
+.wd-bookmark-actions li {
+    width: 25%;
+    float: left;
+}
+
+.wd-bookmark-actions img {
+    width: 12px;
+    padding-right: 12px;
+}
+
+.wd-bookmark-actions a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+#wd-bookmark-heart {
+    color: red;
+}

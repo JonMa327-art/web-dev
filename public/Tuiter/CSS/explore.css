@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+/* Search Bar */
+.wb-search {
+    height: 50px;
+    position: relative;
+    margin: 16px;
+}
+
+.wb-search-bar {
+    width: 85%;
+    border-radius: 50px;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    border-color: rgb(47, 51, 54);
+    background-color: rgb(43, 43, 43);
+
+}
+
+.wb-search a img {
+    width: 45px;
+    height: 45px;
+    padding-right: 12px;
+    float: right;
+}
+
+/* Links */
+.wb-links {
+    position: relative;
+    margin: 16px;
+}
+
+.wb-links a { 
+    font-size: 15px;
+    margin-right: 32px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+}
+
+#wb-links-current { 
+    color: rgb(110, 118, 242);
+    border-bottom: solid 3px rgb(110, 118, 242);
+}
+
+
+/* Suggested Post */
+
+.wd-suggested {
+    position: relative;
+    padding-top: 16px;
+    margin: 16px;
+}
+
+.wd-suggested ul li {
+    margin: 10px 0;
+}
+
+.wd-suggested ul p {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-suggested ul h1 {
+    margin: 5px 0;
+    font-size: 20px;
+    color: white;
+}
+
+.wd-suggested-post {
+    height: 100px;
+    display: inline-block;
+}
+
+.wb-suggested-author {
+    color: white;
+}
+
+.wd-suggested img {
+    width: 100px;
+    height: 100px;
+    margin-right: 16px;
+    border-radius: 15px;
+    float: right;
+}
+
+.wd-suggested hr {
+    border-color: rgb(110, 118, 125);
+}
+
+
