@@ -4,51 +4,77 @@
 }
 
 body {
+    width: 600px;
+    margin: auto;
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wd-explore_head {
+    margin: 0px 16px;
+    border: solid rgb(47, 51, 54) 1px;
+    border-top: 0px;
+    padding-top: 5px;
 }
 
 /* Search Bar */
 .wb-search {
-    height: 50px;
     position: relative;
-    margin: 16px;
+    padding: 0 16px 16px;
 }
 
 .wb-search-bar {
     width: 85%;
     border-radius: 50px;
     padding: 12px;
-    font-size: 18px;
+    font-size: 15px;
+    border: 0px;
     color: white;
-    border-color: rgb(47, 51, 54);
-    background-color: rgb(43, 43, 43);
-
+    background-color: rgb(32, 35, 39);
 }
 
-.wb-search a img {
-    width: 45px;
-    height: 45px;
-    padding-right: 12px;
+.wb-search-bar:focus {
+    outline:rgb(29, 155, 240) 2px solid
+}
+
+.wb-search a {
     float: right;
+    padding-right: 12px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(29, 155, 240);
 }
 
 /* Links */
 .wb-links {
     position: relative;
-    margin: 16px;
+    padding-bottom: 16px;
 }
 
 .wb-links a { 
     font-size: 15px;
-    margin-right: 32px;
+    /* margin-right: 32px; */
+    padding: 0px 16px;
     padding-bottom: 16px;
     text-decoration: none;
+    font-weight: 500;
     color: rgb(110, 118, 125);
 }
 
 #wb-links-current { 
-    color: rgb(110, 118, 242);
-    border-bottom: solid 3px rgb(110, 118, 242);
+    color: rgb(29, 155, 240);
+    position: relative;
+}
+
+#wb-links-current::after { 
+    content: "";
+    width: 80%;
+    height: 5px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 0px;
+    left: 10%;
+    background-color: rgb(29, 155, 240);
 }
 
 
@@ -56,12 +82,14 @@ body {
 
 .wd-suggested {
     position: relative;
-    padding-top: 16px;
-    margin: 16px;
+    margin: 0 16px 16px;
 }
 
+
 .wd-suggested ul li {
-    margin: 10px 0;
+    border: solid rgb(47, 51, 54) 1px;
+    border-top: 0px;
+    padding: 16px;
 }
 
 .wd-suggested ul p {
@@ -76,6 +104,7 @@ body {
 }
 
 .wd-suggested-post {
+    width: 400px;
     height: 100px;
     display: inline-block;
 }
@@ -87,10 +116,10 @@ body {
 .wd-suggested img {
     width: 100px;
     height: 100px;
-    margin-right: 16px;
     border-radius: 15px;
     float: right;
 }
+
 
 .wd-suggested hr {
     border-color: rgb(110, 118, 125);

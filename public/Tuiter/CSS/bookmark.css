@@ -4,14 +4,18 @@
 }
 
 body {
+    width: 600px;
+    height: 100%;
+    margin: auto;
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Title */
 .wd-title {
-    margin: 12px 0px 0px 16px;
-    padding-bottom: 16px;
-    border-bottom: solid 1px lightgray;
+    padding: 16px;
+    border: solid 1px rgb(47, 51, 54);
+    border-top: 0px;
 }
 
 .wd-title h1 {
@@ -21,13 +25,18 @@ body {
 
 .wd-title p {
     font-size: 13px;
-    color: lightgray;
+    color: grey;
 }
 
 
 /* Bookmark */
 .wd-bookmark {
-    margin: 12px 0px 0px 16px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 16px 16px;
+    border: solid rgb(47, 51, 54) 1px;
     color: white;
 }
 
@@ -35,13 +44,12 @@ body {
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    float: left;
 }
 
 .wd-bookmark-tweet {
     width: 506px;
+    height: auto;
     margin-left: 12px;
-    float: left;
 }
 
 .wd-bookmark-author {
@@ -51,7 +59,7 @@ body {
 }
 
 .wd-bookmark-handle {
-    color: lightgray;
+    color: grey;
 }
 
 .wb-bookmark-message {
@@ -61,7 +69,7 @@ body {
 }
 
 .wd-bookmark-img-container {
-    border: solid 1px lightgray;
+    border: solid 1px rgb(47, 51, 54);
     border-radius: 25px;
 }
 
@@ -78,17 +86,20 @@ body {
 }
 
 .wd-bookmark-img-message {
-    color: lightgray;
+    color: grey;
     font-size: 15px;
     padding: 0px 12px 12px;
 }
 
-
-
-
+/* Actions */
 .wd-bookmark-actions {
     margin-top: 12px;
     list-style-type: none;
+    color: grey;
+}
+
+.wd-bookmark-actions li .wd-bookmark-heart {
+    color: red;
 }
 
 .wd-bookmark-actions li {
@@ -96,16 +107,11 @@ body {
     float: left;
 }
 
-.wd-bookmark-actions img {
-    width: 12px;
-    padding-right: 12px;
-}
-
 .wd-bookmark-actions a {
     text-decoration: none;
-    color: lightgray;
+    color: grey;
 }
 
-#wd-bookmark-heart {
+.wd-bookmark-heart {
     color: red;
 }
