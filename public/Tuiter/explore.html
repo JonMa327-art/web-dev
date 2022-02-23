@@ -1,73 +1,204 @@
 <head>
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../vendors/fontawesome/css/all.css">
     <link rel="stylesheet" href="CSS/explore.css">
 </head>
 
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-1 col-xxl-3 col-links">
+                <div class="tuiter-icon-container">
+                    <i class="fab fa-twitter fa-2x icon-color"></i>
+                </div>
+                <div class="list-group">
+                    <div class="list-group-item tuiter-links">
+                        <i class="fa fa-home icon-color"></i>
+                        <a href="" class="d-none d-xxl-inline-block">
+                            Home
+                        </a>
+                    </div>
+                    <div class="list-group-item tuiter-links">
+                        <i class="fa fa-hashtag icon-color"></i>
+                        <a href="" id="active-link" class="d-none d-xxl-inline-block">
+                            Explore
+                        </a>
+                    </div>
+                    <div class="list-group-item tuiter-links">
+                        <i class="fa fa-bell icon-color"></i>
+                        <a href="" class="d-none d-xxl-inline-block">
+                            Notifications
+                        </a>
+                    </div>
+                    <div class="list-group-item tuiter-links">
+                        <i class="fa fa-envelope icon-color"></i>
+                        <a href="" class="d-none d-xxl-inline-block">
+                            Messages
+                        </a>
+                    </div>
+                    <div class="list-group-item tuiter-links ">
+                        <i class="fa fa-bookmark icon-color"></i>
+                        <a href="" class="d-none d-xxl-inline-block">
+                            Bookmarks
+                        </a>
+                    </div>
+                    <div class="list-group-item tuiter-links">
+                        <i class="fa fa-bars icon-color"></i>
+                        <a href="" class="d-none d-xxl-inline-block">
+                            List
+                        </a>
+                    </div>
+                    <div class="list-group-item tuiter-links">
+                        <i class="fa fa-user icon-color"></i>
+                        <a href="" class="d-none d-xxl-inline-block">
+                            Profile
+                        </a>
+                    </div>
+                    <div class="list-group-item tuiter-links">
+                        <i class="fa fa-plus icon-color"></i>
+                        <a href="" class="d-none d-xxl-inline-block">
+                            More
+                        </a>
+                    </div>
+                </div>
+                <button class="btn btn-primary tuit-button">
+                    <p>Tuit</p>
+                </button>
+            </div>
+            <div class="col-md-10 col-xl-6">
+                <div class="wd-explore_head">
+                    <div class="wb-search">
+                        <input type="text" style="font-family: FontAwesome;" class="wb-search-bar" name="" id=""
+                            placeholder="&#128269     Search Tuiter">
+                        <a href="explore-settings.html">
+                            &#9881
+                        </a>
+                    </div>
 
-    <div class="wd-explore_head">
-        <div class="wb-search">
-            <input type="text" class="wb-search-bar" name="" id="" placeholder="Search Tuiter">
-            <a href="explore-settings.html">
-                &#9881
-            </a>
+                    <div class="wb-links">
+                        <a href="for-you.html" id="wb-links-current">For you</a>
+                        <a href="trending.html">Trending</a>
+                        <a href="news.html">News</a>
+                        <a href="sports.html">Sports</a>
+                        <a href="entertainment.html">Enterainment</a>
+                    </div>
+                </div>
+
+                <div class="wd-main-img">
+                    <img src="../images/SpaceX_Starship.jpeg" alt="">
+                    <h1>SpaceX's Starship</h1>
+                </div>
+
+                <div class="wd-suggested">
+                    <ul>
+                        <li>
+                            <div class="wd-suggested-post">
+                                <p>Web Development</p>
+                                <p><span class="wb-suggested-author">React.JS</span> 2h</p>
+                                <h1>React.js is a component based front end library that makes it very easy to build
+                                    Single Page Applications of SPAs</h1>
+                            </div>
+                            <img src="../images/React_Icon.png" alt="">
+                        </li>
+                        <li>
+                            <div class="wd-suggested-post">
+                                <p><span class="wb-suggested-author">JavaScript</span> 2h</p>
+                                <h1>JavaScript is programming language that can run on browsers as well as dektops</h1>
+                                <p class="wd-suggest-tuits">123k Tweets</p>
+                            </div>
+                            <img src="../images/JavaScript_Icon.png" alt="">
+                        </li>
+                        <li>
+                            <div class="wd-suggested-post">
+                                <p>Web Development</p>
+                                <h1>JQuery</h1>
+                                <p class="wd-suggest-tuits">123k Tweets</p>
+                            </div>
+                            <img src="../images/JQuery_Icon.png" alt="">
+                        </li>
+                        <li>
+                            <div class="wd-suggested-post">
+                                <p>Web Development</p>
+                                <h1>NodeJS</h1>
+                                <p class="wd-suggest-tuits">123k Tweets</p>
+                            </div>
+                            <img src="../images/JavaScript_Icon_2.png" alt="">
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="d-md-none d-lg-block d-lg-none d-xl-block col-xl-3 follow-container">
+                <h1 class="follow-title">Who to follow</h1>
+                <div class="list-group">
+                    <div class="list-group-item follow-item">
+                        <img src="../images/Java_Icon.png" alt="">
+                        <div class="follow-tag-button-container">
+                            <div class="follow-tag">
+                                <h2>Java</h2>
+                                <p>@Java</p>
+                            </div>
+                            <button class="btn btn-primary follow-button">
+                                <p>Follow</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="list-group-item follow-item">
+                        <img src="../images/Relaticity_Space_Icon.jpeg" alt="">
+                        <div class="follow-tag-button-container">
+                            <div class="follow-tag">
+                                <h2>Relativity Space</h2>
+                                <p>@relativityspace</p>
+                            </div>
+                            <button class="btn btn-primary follow-button">
+                                <p>Follow</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="list-group-item follow-item">
+                        <img src="../images/Virgin_Galactic_Icon.svg" alt="">
+                        <div class="follow-tag-button-container">
+                            <div class="follow-tag">
+                                <h2>Virgin Galactic</h2>
+                                <p>@virgingalactic</p>
+                            </div>
+                            <button class="btn btn-primary follow-button">
+                                <p>Follow</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="list-group-item follow-item">
+                        <img src="../images/NASA_Icon.png" alt="">
+                        <div class="follow-tag-button-container">
+                            <div class="follow-tag">
+                                <h2>NASA</h2>
+                                <p>@NASA</p>
+                            </div>
+                            <button class="btn btn-primary follow-button">
+                                <p>Follow</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="list-group-item follow-item">
+                        <img src="../images/Tesla_Icon.png" alt="">
+                        <div class="follow-tag-button-container">
+                            <div class="follow-tag">
+                                <h2>Tesla</h2>
+                                <p>@Tesla</p>
+                            </div>
+                            <button class="btn btn-primary follow-button">
+                                <p>Follow</p>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="list-group-item follow-item">
+                        <a href="" class="follow-show-more">Show more</a>
+                    </div>
+
+                </div>
+            </div>
         </div>
 
-        <div class="wb-links">
-            <a href="" id="wb-links-current">For you</a>
-            <a href="">Trending</a>
-            <a href="">COVID-19</a>
-            <a href="">News</a>
-            <a href="">Sports</a>
-            <a href="">Enterainment</a>
-        </div>
     </div>
 
-    <div class="wd-suggested">
-        <ul>
-            <li>
-                <p>Trending in Science</p>
-                <h1>Starship</h1>
-                <p>55.5k Tweets</p>
-            </li>
-            <li>
-                <p>Sport Trending</p>
-                <h1>Joe Rogan</h1>
-                <p>5.21B Tweets</p>
-            </li>
-            <li>
-                <div class="wd-suggested-post">
-                    <p><span class="wb-suggested-author">The New York Times </span>Yesterday</p>
-                    <h1>CNN's Cuoomo conudrum: A start
-                        anchor with a brother in trouble</h1>
-                    <p>5.21B Tweets</p>
-                </div>
-                <img src="../Temple.jpeg" alt="">
-            </li>
-            <li>
-                <div class="wd-suggested-post">
-                    <p><span class="wb-suggested-author">Lorem ipsum dolor sit. </span>Yesterday</p>
-                    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis deleniti minima
-                        voluptates.</h1>
-                    <p>5.21B Tweets</p>
-                </div>
-                <img src="../Banner.png" alt="">
-            </li>
-            <li>
-                <div class="wd-suggested-post">
-                    <p>COVID-19 LIVE</p>
-                    <h1>COVID-19: News and updates for Massachusetts</h1>
-                </div>
-                <img src="../Enterance.jpeg" alt="">
-            </li>
-            <li>
-                <div class="wd-suggested-post">
-                    <p>Lorem, ipsum dolor.</p>
-                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident porro optio perferendis..
-                    </h1>
-                </div>
-                <img src="../Gate.jpeg" alt="">
-            </li>
-        </ul>
-
-    </div>
 </body>
