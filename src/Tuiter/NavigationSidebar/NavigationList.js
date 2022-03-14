@@ -12,7 +12,7 @@ export default NavigationList;
 
 const links = (link) => {
     return (
-        <div className="list-group-item tuiter-links">
+        <div className="list-group-item tuiter-links" >
             <i className={link.icon}></i>
             <a href="" className="d-none d-xxl-inline-block">
                 {link.name}
