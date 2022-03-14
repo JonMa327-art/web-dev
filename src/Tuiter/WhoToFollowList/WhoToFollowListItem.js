@@ -6,14 +6,14 @@ const WhoToFollowListItem = ({
     }
 }) => {
     return (
-        < div class="list-group-item follow-item" >
+        < div className="list-group-item follow-item" >
             <img src={who.avatarIcon} />
-            < div class="follow-tag-button-container" >
-                <div class="follow-tag">
+            < div className="follow-tag-button-container" >
+                <div className="follow-tag">
                     <h2>{who.userName}</h2>
                     <p>{who.handle}</p>
                 </div>
-                <button class="btn btn-primary follow-button">
+                <button className="btn btn-primary follow-button">
                     <p>Follow</p>
                 </button>
             </div >

@@ -11,7 +11,7 @@ const PostSummaryItem = ({
 }) => {
     return (
         <li>
-            <div class="wd-suggested-post">
+            <div className="wd-suggested-post">
                 <p>{post.topic}</p>
                 <p><span class="wb-suggested-author">{post.userName}</span> {post.time}</p>
                 <h1>{post.title}</h1>
