@@ -1,0 +1,153 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 600px;
+    height: 100%;
+    margin: auto;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* Title */
+.wd-title {
+    padding: 16px;
+    border: solid 1px rgb(47, 51, 54);
+    border-top: 0px;
+}
+
+.wd-title h1 {
+    font-size: 20px;
+    color: white;
+}
+
+.wd-title p {
+    font-size: 13px;
+    color: grey;
+}
+
+.create-new-tuit-placememnt {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.new-tuit_box {
+    width: 90%;
+    margin: 10px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: black;
+}
+
+.new-tuit-button-placement {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.new-tuit-button {
+    border: 0px;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgb(29, 155, 240);
+    color: white;
+}
+
+
+/* Bookmark */
+.wd-bookmark {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 16px 16px;
+    border: solid rgb(47, 51, 54) 1px;
+    color: white;
+}
+
+.delete_button {
+    float: right;
+}
+
+.wd-bookmark-profile-pic {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.wd-bookmark-tweet {
+    width: 506px;
+    height: auto;
+    margin-left: 12px;
+}
+
+.wd-bookmark-author {
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: white;
+}
+
+.wd-bookmark-handle {
+    color: grey;
+}
+
+.wb-bookmark-message {
+    width: 506px;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.wd-bookmark-img-container {
+    border: solid 1px rgb(47, 51, 54);
+    border-radius: 25px;
+}
+
+.wd-bookmark-img-tweet {
+    width: 504px;
+    height: 264px;
+    border-radius: 20px;
+} 
+
+.wd-bookmark-img-title {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px;
+}
+
+.wd-bookmark-img-message {
+    color: grey;
+    font-size: 15px;
+    padding: 0px 12px 12px;
+}
+
+/* Actions */
+.wd-bookmark-actions {
+    margin-top: 12px;
+    list-style-type: none;
+    color: grey;
+}
+
+.wd-bookmark-actions li .wd-bookmark-heart {
+    color: red;
+}
+
+.wd-bookmark-actions li {
+    width: 25%;
+    float: left;
+}
+
+.wd-bookmark-actions a {
+    text-decoration: none;
+    color: grey;
+}
+
+.wd-bookmark-heart {
+    color: red;
+}

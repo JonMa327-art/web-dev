@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 import Styles from "./styles";
 import ConditionalOutput from "./conditional-output";
 import TodoList from "./todo/TodoList";
-
+import ReduxExamples from "./redux-examples/index.js";
 
 const Labs = () => {
     return (
         <>
             <h1>Labs</h1>
+            <ReduxExamples />
             <TodoList />
             <ConditionalOutput />
             <Styles />

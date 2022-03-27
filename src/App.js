@@ -19,9 +19,18 @@ function App() {
           <Route path="/"
             exact={true}
             element={<Labs />} />
-          <Route path="/tuiter"
+          {/* <Route path="/tuiter"
             exact={true}
-            element={<Tuiter />} />
+            element={<Tuiter />} /> */}
+          <Route path="tuiter"
+            element={<Tuiter />}>
+            {/* <Route index
+              element={<HomeScreen />} />
+            <Route path="explore"
+              element={<ExploreScreen />} />
+            <Route path="notifications"
+              element={<NotificationScreen />} /> */}
+          </Route>
         </Routes>
       </div>
     </BrowserRouter>

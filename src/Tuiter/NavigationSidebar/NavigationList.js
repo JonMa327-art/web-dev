@@ -1,8 +1,13 @@
-import NavigationLinks from "./NavigationLinks.json";
+// import NavigationLinks from "./NavigationLinks.json";
+
+import { useSelector } from "react-redux";
 
 const NavigationList = () => {
+    //creates the reducer for the list on links
+    const Navlinks = useSelector((state) => state.NavigationReducer)
+    //maps over the list of links in the reducer
     return (
-        NavigationLinks.map(link => {
+        Navlinks.map(link => {
             return (links(link));
         })
     );
