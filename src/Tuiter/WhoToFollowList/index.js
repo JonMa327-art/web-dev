@@ -1,4 +1,5 @@
 // import WhoToFollowLinks from "./WhoToFollowLinks.json";
+import React from 'react';
 import { useSelector } from "react-redux";
 import WhoToFollowListItem from "./WhoToFollowListItem";
 

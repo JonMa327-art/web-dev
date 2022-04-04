@@ -17,7 +17,7 @@
 //     )
 // };
 // export default Tuiter;
-
+import React from 'react';
 import "./CSS/explore.css";
 import "./CSS/bookmark.css";
 import { Outlet } from "react-router-dom";

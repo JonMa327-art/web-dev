@@ -60,6 +60,23 @@ body {
     color: white;
 }
 
+.delete-tuit-button {
+    border: 0px;
+    padding: 5px 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgb(29, 155, 240);
+    color: white;
+}
+
+.list-group {
+    list-style: none;
+}
+
+
 
 /* Bookmark */
 .wd-bookmark {
@@ -113,7 +130,7 @@ body {
     width: 504px;
     height: 264px;
     border-radius: 20px;
-} 
+}
 
 .wd-bookmark-img-title {
     font-size: 15px;

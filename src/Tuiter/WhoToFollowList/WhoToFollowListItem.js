@@ -1,3 +1,4 @@
+import React from 'react';
 const WhoToFollowListItem = ({
     who = {
         "avatarIcon": "../../images/Java_Icon.png",
